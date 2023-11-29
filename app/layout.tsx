@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
+import Image from "next/image"
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,7 +20,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <header className="bg-opacity-80 bg-gray-300 flex flex-row text-black items-center pr-20 pl-10">
           <div className="m-2 pr-2 sm:border-r border-gray-600">
-            <img alt="Apex Logo" width={50} src="Screenshot_2023-11-11_at_11.51.06_AM-removebg-preview.png" />
+            <Image alt="Apex Logo" width={50} height={50} src="/Screenshot_2023-11-11_at_11.51.06_AM-removebg-preview.png" />
           </div>
 
           <h4 className="hidden sm:block">

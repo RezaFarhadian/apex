@@ -3,6 +3,7 @@ import Feature from '@/components/Feature'
 import Figure from '@/components/Figure'
 import Input from '@/components/Input'
 import TextArea from '@/components/TextArea'
+import Image from "next/image"
 
 export default function Home() {
   return (
@@ -23,7 +24,7 @@ export default function Home() {
       </div>
 
       <div className="w-1/2 m-auto sm:w-1/3">
-        <img alt="Apex Logo" width={150} src="/output-onlinepngtools.png" className="m-auto opacity-50" />
+        <Image alt="Apex Logo" width={150} height={150} src="/output-onlinepngtools.png" className="m-auto opacity-50" />
         
         <p className="text-center -mt-10">
           Discover Apex Pioneer Group, your trusted partner in
@@ -66,7 +67,7 @@ export default function Home() {
 
         <Feature icon="bg-cost-transparency" headline="Cost Transparency">
           No fees for sellers, <br />
-          including no buyer's agent <br /> 
+          including no buyer&apos;s agent <br /> 
           commission.
         </Feature>
       </div>
@@ -82,9 +83,9 @@ export default function Home() {
           <div className="sm:border-r border-white sm:pr-20">
             <p>
               Feel free to reach out for any inquiries. <br /> <br />
-              At Apex Pioneer Group, we're always ready to assist <br />
+              At Apex Pioneer Group, we&apos;re always ready to assist <br />
               you. You can call or text us at <b>(469) 207-1824.</b> <br />
-              We're open to exploring various opportunities and <br />
+              We&apos;re open to exploring various opportunities and <br />
               promise a prompt response, often providing answers <br />
               on the same day. <br /> <br />
               Looking forward to the possibility of closing a deal <br />
